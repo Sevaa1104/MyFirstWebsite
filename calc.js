@@ -1,12 +1,9 @@
 function getInputs() {
       const num1 = parseFloat(document.getElementById('num1').value);
       const num2 = parseFloat(document.getElementById('num2').value);
-      if (isNaN(num1) || isNaN(num2)) {
-        document.getElementById('result').textContent = "Invalid";
-        return null;
-      }
       return { num1, num2 };
     }
+
 
     function Add() {
       const inputs = getInputs();
