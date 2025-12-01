@@ -1,0 +1,64 @@
+   *{
+        background-color:whitesmoke;
+    }
+@font-face{
+    font-family:CalSans_Regular;
+    src:url(Assets/CalSans-Regular.ttf);
+}
+header{
+   font-family:CalSans_Regular;
+    src:url(Assets/CalSans-Regular.ttf);
+    text-align: center;
+}   
+nav{
+    font-family:CalSans_Regular;
+    src:url(Assets/CalSans-Regular.ttf);
+    text-align: center;
+    justify-self: center;
+    border-radius: 28px;
+}
+nav button {
+    border-color:white;
+    font-family:CalSans_Regular;
+    src:url(Assets/CalSans-Regular.ttf);
+    text-align: center;
+    border-radius: 28px; 
+}
+nav button a {
+    color:inherit;
+}
+nav button:hover{
+    background-color:white;
+}
+nav button a:hover{
+    background-color:white;
+}
+.GridContainer{
+    font-family:CalSans_Regular;
+    src:url(Assets/CalSans-Regular.ttf);
+    display: grid;
+    grid-template-columns: auto auto min-content;
+    padding: 35px;
+}
+.GridContainer section{
+background-color: lightgrey;
+place-self: left;
+grid-column: 1 / span 2;
+padding: 30px;
+margin:20px;
+border-radius: 28px;
+box-shadow: 10px 10px 10px 10px;
+
+}
+.GridContainer section ol{
+    background-color:lightgray;
+}
+.GridContainer section ol li{
+    background-color:lightgray;
+}
+.GridContainer section ol li a{
+    background-color:lightgray;
+}
+.GridContainer aside{
+    place-self:right;
+}

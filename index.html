@@ -4,45 +4,48 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
         <title>My First Website</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="homepage.css">
     </head>
     <body>       
-    <div class="SiteLogo"><h1>Cool Website</h1>
-    <img
-    src="./Assets/IMG_4442.jpg" 
-    alt="Sebastian Duran doing a thumbs-up"
-    width="80px"> </div>
-    <div class="tooltip">Over here!
-        <span class="tooltiptext"> This is a tooltip!</span>
-    </div>
-        <div class="NavBar">
-        <button class="NavButton"> 
-            <a class="NavLink" href="index.html" rel="noopener noreferrer">Home</a></button>  
-        <button class="NavButton">
-            <a class="NavLink" href="about_me.html" rel="noopener noreferrer">About</a>
-        <button class="NavButton">
-            <a class="NavLink" href="https://online.valenciacollege.edu/" rel="noopener noreferrer" target="_blank">Canvas</a>
-        <button class="NavButton">
-            <a class="NavLink" href="https://myvc.valenciacollege.edu/dashboard" rel="noopener noreferrer" target="_blank">Atlas</a>
-        <button class="NavButton">
-            <a class="NavLink" href="Grades.html" rel="noopener noreferrer" target="_blank">Grades</a>
-        <button class="NavButton">
-            <a class="NavLink" href="StudentForm.html" rel="noopener noreferrer" target="_blank">Survey</a>
-        </div>
-            <h2>Welcome to my First Website!</h2>
-    <p>This is the place where you can see all the work I've done so far, and follow<br>
-    my web development journey!</p>
+    <header>
+        <h1>My Website</h1>
+        <h3>Sebastian Duran</h3>
+    
 
-    <p>Here are the projects I've completed so far:</p>
+    <nav>
+        <button> 
+            <a href="index.html" rel="noopener noreferrer">Home</a></button>  
+        <button>
+            <a href="about_me.html" rel="noopener noreferrer">About</a>
+        <button>
+            <a href="https://online.valenciacollege.edu/" rel="noopener noreferrer" target="_blank">Canvas</a>
+        <button>
+            <a href="https://myvc.valenciacollege.edu/dashboard" rel="noopener noreferrer" target="_blank">Atlas</a>
+        <button>
+            <a href="Grades.html" rel="noopener noreferrer" target="_blank">Grades</a>
+        <button>
+            <a href="StudentForm.html" rel="noopener noreferrer" target="_blank">Survey</a>
+        </nav>
+            <h2>Welcome to my First Website!</h2>
+    </header>
+    <div class="GridContainer">
+        <section>This is the place where you can see all the work I've done so far, and follow<br>
+        my web development journey!</br>
+
+    Here are the projects I've completed so far:
         <ol>
             <li><a href="about_me.html">About me</a></li>
             <li><a href="Favorite_Food.html">A very simple fried rice recipe</a></li>
             <li><a href="Vienna.html">The Siege of Vienna</a></li>
             <li><a href="calc.html">Basic operations</a></li>
         </ol>
-<video width="500" height="300" controls>
-    <source src="Assets/SadCats.mp4">
-</video>
-<p><a href="https://www.youtube.com/watch?v=eo7wJHrTmc4">Video Source</a></p>
-
+        </section>
+        <aside>
+            <video width="500" height="300" controls>
+                <source src="Assets/SadCats.mp4">
+            </video>
+        
+<footer><a href="https://www.youtube.com/watch?v=eo7wJHrTmc4">Video Source</a></footer>
+        </aside>
+</div>
 </html>
